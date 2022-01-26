@@ -1,0 +1,47 @@
+.quantity {
+  display: flex;
+  flex-direction: column;
+}
+
+.quantity__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 0 0;
+  width: 78px;
+  font-size: 24px;
+  color: $color-violet;
+}
+
+.quantity__input {
+  width: 30px;
+  text-align: center;
+  border: none;
+}
+
+.quantity__button {
+  width: 16px;
+  height: 16px;
+  font-size: 30px;
+  border: none;
+  background-image: url("../img/icon-plus.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  &--minus {
+    background-image: url("../img/icon-minus.svg");
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+
+

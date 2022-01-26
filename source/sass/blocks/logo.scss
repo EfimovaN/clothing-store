@@ -1,0 +1,24 @@
+.logo {
+  position: relative;
+  z-index: 5;
+  &:hover,
+  &:focus {
+    opacity: 80%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
+}
+
+.logo__image {
+  margin: 24px 0 0 0;
+  width: 65px;
+  min-height: 36px;
+
+  @media (min-width: $desktop-width) {
+    margin: 32px 0 0 0;
+    width: 94px;
+    min-height: 53px;
+  } 
+}

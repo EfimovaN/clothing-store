@@ -1,0 +1,17 @@
+.form__gender {
+  margin: 0;
+}
+
+.form__agree {
+  margin: 30px 0 17px 30px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 32px;
+  }
+}
+
+.form__agree label {
+  position: relative;
+  color: $color-violet;
+  cursor: pointer;
+}

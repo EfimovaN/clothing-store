@@ -1,0 +1,33 @@
+.agree__checkbox + label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -28px;
+  border: 1px solid $color-light-gray;
+}
+
+.agree__checkbox:hover + label::before,
+.agree__checkbox:focus + label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -28px;
+  border: none;
+  background-image: url("../img/check-hover.svg");
+  background-repeat: no-repeat;
+}
+
+.agree__checkbox:checked + label::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -28px;
+  background-image: url("../img/check.svg");
+  background-repeat: no-repeat;
+}

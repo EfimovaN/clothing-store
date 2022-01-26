@@ -1,0 +1,39 @@
+.product {
+  margin-bottom: 26px;
+}
+
+.product__name {
+  margin: 15px 0 0;
+  font-size: 32px;
+  line-height: 32px;
+  color: $color-violet;
+
+  @media (min-width: $tablet-width) {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 23px;
+  }
+}
+
+.product__description {
+  margin: 15px 5px 16px 0;
+  font-size: 18px;
+  line-height: 28px;
+
+  @media (min-width: $tablet-width) {
+    margin: 15px 50px 4px 0;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 15px 213px 8px 0;
+  }
+}
+
+
+
+

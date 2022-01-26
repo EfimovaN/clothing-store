@@ -1,0 +1,21 @@
+.page-main {
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 600px 760px;
+  }
+}
+
+.page-main__wrapper {
+  @media (min-width: $desktop-width) {
+    grid-column: 2 / 3;
+    padding: 57px 52px 0 92px;
+  }
+}
+
+.page-main__title {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}

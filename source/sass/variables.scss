@@ -1,0 +1,49 @@
+$tablet-width: 720px;
+$desktop-width: 1360px;
+$mobile-width-only: 719px;
+
+$color-light-gray: #e1e6ed;
+$color-violet: #192b3f;
+$color-bluesh-gray: #8a94a6;
+$color-sandy: #c9b8a8;
+$color-white: #ffffff;
+
+@font-face {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    url("../fonts/Rajdhani-Regular.woff2") format("woff2"),
+    url("../fonts/Rajdhani-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    url("../fonts/Rajdhani-Medium.woff2") format("woff2"),
+    url("../fonts/Rajdhani-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    url("../fonts/Rajdhani-SemiBold.woff2") format("woff2"),
+    url("../fonts/Rajdhani-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    url("../fonts/Rajdhani-Bold.woff2") format("woff2"),
+    url("../fonts/Rajdhani-Bold.woff") format("woff");
+}

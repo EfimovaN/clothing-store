@@ -1,0 +1,15 @@
+.personal-data__input {
+    margin-bottom: 16px;
+    padding: 0 16px;
+    width: 100%;
+    height: 44px;
+    font-size: 16px;
+    line-height: 40px;
+    border: none;
+    color: $color-violet;
+    background-color: #f9fafb;
+
+    @media (min-width: $tablet-width) {
+        width: 456px;
+    }
+}

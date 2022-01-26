@@ -1,0 +1,59 @@
+.gender {
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+}
+
+.gender__title {
+  margin: 0 0 9px;
+  font-size: 20px;
+  line-height: 24px;
+  opacity: 0.8;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 26px;
+  }
+}
+
+.gender__label {
+  margin-left: 28px;
+  position: relative;
+  color: $color-violet;
+  cursor: pointer;
+
+  &:nth-of-type(2) {
+    margin-left: 48px;
+    @media (min-width: $tablet-width) {
+      margin-left: 52px;
+    }
+  }
+}
+
+.gender__radio + label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -28px;
+  border-radius: 50%;
+  border: 1px solid $color-light-gray;
+}
+
+.gender__radio:hover + label::before,
+.gender__radio:focus + label::before {
+  border-color: $color-bluesh-gray;
+}
+
+.gender__radio:checked + label::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 4px;
+  left: -24px;
+  border-radius: 50%;
+  background-color: $color-violet;
+}
